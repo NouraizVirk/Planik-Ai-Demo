@@ -21,7 +21,9 @@
 </div>
 
 ---
+> **Note:** The source code for this application is hosted in a private repository to protect proprietary security algorithms and system configurations. This public repository serves as an architectural overview and technical demonstration of the platform.
 
+---
 # 🌟 Part 1: Product Overview & Vision
 
 **Planik AI** is a next-generation SaaS digital marketplace that fundamentally disrupts traditional architectural planning and construction bidding. By harnessing the capabilities of Generative AI, Planik AI acts as a digital bridge connecting homeowners/clients with verified construction contractors. 
