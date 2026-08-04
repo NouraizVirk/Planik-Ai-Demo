@@ -1,128 +1,219 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150x150/0f172a/ffffff?text=Planik+AI" alt="Planik AI Logo" width="120" />
-
-  <h1 align="center">Planik AI 🏠🏗️</h1>
-
-  <p align="center">
-    <strong>Revolutionizing Architectural Planning with Generative AI & Seamless Contractor Collaboration</strong>
-  </p>
-
-  <p align="center">
-    <a href="https://planik-ai.vercel.app/"><strong>🔗 View Live Production Demo</strong></a>
-  </p>
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-    <img src="https://img.shields.io/badge/AI_Powered-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="AI Powered" />
-  </p>
+  <img src="Planik-AI deployed/plainikAi/Logo/favicon-Photoroom.png" alt="Planik-AI Logo" width="140" height="140" style="border-radius: 50%; object-fit: cover;" />
 </div>
 
----
-> **Note:** The source code for this application is hosted in a private repository to protect proprietary security algorithms and system configurations. This public repository serves as an architectural overview and technical demonstration of the platform.
+<h1 align="center">📐 Planik-AI</h1>
 
----
-# 🌟 Part 1: Product Overview & Vision
+<div align="center">
 
-**Planik AI** is a next-generation SaaS digital marketplace that fundamentally disrupts traditional architectural planning and construction bidding. By harnessing the capabilities of Generative AI, Planik AI acts as a digital bridge connecting homeowners/clients with verified construction contractors. 
+[![Next.js](https://img.shields.io/badge/Next.js-16.2.1-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-Instead of waiting weeks for preliminary architectural drafts, clients can instantly generate a highly detailed, proportional floor plan using natural language and structured inputs. Once generated, clients can publish their blueprints to an active marketplace where contractors bid on timelines and costs. From the first AI-generated pixel to the final construction milestone, Planik AI handles the entire project lifecycle in one secure ecosystem.
+</div>
 
-### 💡 Core Value Propositions
-* **Instant Ideation:** Days of architectural back-and-forth are reduced to seconds via our AI generation models.
-* **Radical Transparency:** A fully transparent bidding system ensures clients get fair market value for construction, while contractors get equal visibility to win projects.
-* **Frictionless Collaboration:** Integrated real-time messaging, milestone tracking, and progress percentage updates eliminate the need for third-party comms like WhatsApp or Email.
+<br />
 
----
-
-## 🎯 The Multi-Sided Platform Experience
-
-Planik AI features three uniquely engineered, distinct environments, each tailored precisely to the needs of its specific user role.
-
-### 👤 1. The Client Command Center
-Crafted for users looking to dream, plan, and build. 
-* **The AI Generation Studio:** Clients input specific spatial parameters (e.g., number of rooms, total square footage, specific architectural styles, and budget constraints). The AI engine processes these constraints to output a high-fidelity floor plan.
-* **Project Publishing & Management:** Generated plans can be converted into active project listings. Clients define project scope, upload supplementary requirements, and post them to the marketplace.
-* **Intelligent Bid Review:** As contractors submit varying quotes and delivery timelines, clients interact with a dynamic comparison dashboard. They can review contractor profiles, past ratings, bids, and securely award the project with a single click.
-* **Live Progress Monitoring:** A dynamic timeline tracks exactly how the project is proceeding. Clients view incremental percentage completions natively uploaded by their assigned contractor.
-* **Real-Time Communications Hub:** Direct, built-in chatting mechanism with the assigned contractor to clarify details, request changes, or approve milestones.
-* **Feedback & Rating Engine:** Upon project completion, clients submit verified reviews which permanently impact a contractor's marketplace standing.
-
-### 👷 2. The Contractor Workspace
-A comprehensive, streamlined pipeline for professionals to find work, negotiate, and deliver.
-* **The Project Discovery Marketplace:** A live feed of all unassigned projects globally. Contractors can browse structural descriptions, view the AI-generated blueprints, and decide what matches their expertise.
-* **Bid Submission Engine:** Contractors evaluate a listing and submit a binding bid dictating their proposed cost and estimated timeframe. The system tracks the status of all submitted bids (Pending, Accepted, Rejected).
-* **Active Assignments Dashboard:** Once awarded a project, the contractor's dashboard shifts to an execution view, detailing client contact info, finalized blueprints, and agreed-upon financial terms.
-* **Milestone Delivery System:** Contractors control the timeline reporting. They securely submit progress updates ("Foundation Laid - 25%", "Framing Complete - 50%"), instantly notifying the client.
-* **Client Chat Interface:** Native messaging prevents communication silos, allowing contractors to instantly ping clients from the job site.
-
-### 🛡️ 3. The Administrative Oversight Dashboard
-The ultimate control panel meant for platform owners to maintain quality, security, and growth.
-* **Central Analytics Brain:** A high-level, birds-eye view reporting on gross platform volume, total active/completed projects, user registration velocity, and AI utilization metrics.
-* **User & Role Management:** Admins possess absolute control to view, suspend, or permanently ban accounts. They can manage bidding limits for contractors to prevent spam.
-* **Global Project Moderation:** Complete visibility into every project state. Admins can intervene in disputes, forcibly close stale projects, or moderate inappropriate listings.
-* **Immutable Audit Logging:** Every critical action taken on the platform (logins, bid placements, state changes, password resets) is fundamentally logged to an unalterable ledger to ensure platform integrity and immediate traceability in case of malicious activity.
+> **Planik-AI bridges architectural conceptualization and construction execution by combining graph-based deep learning floorplan generation with a secure, real-time contractor bidding marketplace.**
 
 ---
 
-<br/>
+## Table of Contents
 
-# � Part 2: Engineering & Technical Deep Dive
-
-Planik AI is not just a standard CRUD application; it is a highly complex, state-driven platform built entirely on the bleeding edge of modern web development. Below is a breakdown of the architectural decisions, tech stack, and underlying logical flows that power the application.
-
-## 🛠️ The Technology Stack
-
-| Technology | Purpose & Implementation Justification |
-| :--- | :--- |
-| **Next.js 15 (App Router)** | Powers the entirety of the frontend and backend API. Chosen for its native React Server Components (RSC) which drastically reduce client-side JavaScript bundles, alongside robust Server Actions for high-security data mutations without exposing API endpoints. |
-| **TypeScript (Strict)** | Enforces rigorous end-to-end type safety. Every Supabase database schema is dynamically mapped into TypeScript interfaces, ensuring that a change in a database column automatically flags compiler errors in the UI, virtually eliminating runtime crashes. |
-| **Tailwind CSS & Framer** | Tailwind is utilized for atomic, utility-first styling, ensuring zero dead CSS code. Combined with custom CSS utility classes, it powers the platform's proprietary "Glassmorphism" aesthetic, providing a highly premium, translucent, dark-mode native interface. |
-| **Supabase (PostgreSQL)** | Functions as the core backend infrastructure. Far more capable than NoSQL alternatives, the Postgres relational structure is vital for mapping the complex, many-to-many relationships between Users, Projects, Bids, Messages, and Audit Logs. |
-| **Supabase Auth** | Handles secure user authentication, hashing, and session management. It issues secure JWTs (JSON Web Tokens) which dictate exactly what data the DB returns based on the user's role. |
-| **Generative AI API** | Processes complex, tokenized architectural parameters from the frontend, compiles them into optimized system prompts, and routes them to a diffusion model to systematically map out logical architectural floor plans. |
-| **Vercel Edge Network** | Hosts the deployed application. Chosen for its zero-configuration CI/CD pipeline and ability to run Next.js Route Handlers on Edge networks, providing dramatically faster TTFB (Time to First Byte) globally. |
+- [Overview & Key Features](#overview--key-features)
+- [System Architecture & Data Flow](#system-architecture--data-flow)
+- [Technical Deep Dive](#technical-deep-dive)
+- [Quick Start Guide](#quick-start-guide)
+- [Configuration Reference](#configuration-reference)
+- [Troubleshooting & Diagnostics](#troubleshooting--diagnostics)
 
 ---
 
-## 🧠 Core System Logic & Architectural Flows
+## Overview & Key Features
 
-### 1. Robust Role-Based Access Control (RBAC) & Next.js Middleware
-Security is paramount in a multi-sided marketplace. Planik AI enforces RBAC at three completely different layers to ensure absolute security:
-1. **The Edge Middleware Layer:** Next.js `middleware.ts` intercepts every single incoming HTTP request *before* it hits the server. It decodes the user's secure HTTP-only cookie to determine their role (`client`, `contractor`, or `admin`). If a Client tries to type `/app/contractor/dashboard` into their URL bar, the Middleware instantly bounces them before the page even begins to render.
-2. **The Server Component Layer:** As pages render on the server, they fetch the user's verified role directly from Supabase, dynamically hiding UI elements (like removing the "Bid" button if the user is a Client instead of a Contractor).
-3. **Database Row Level Security (RLS):** Supabase Postgres heavily utilizes RLS policies. Even if a malicious user bypasses the UI and attempts to query the database directly for another user's private project details, the database itself will reject the query. For instance, the SQL policy `current_user_id() = client_id` ensures a client can literally only fetch data they own.
+**Planik-AI** is an end-to-end platform designed to automate residential floorplan generation and streamline client-contractor interactions. By translating user-defined plot dimensions, room counts, and structural constraints into layout graph adjacency matrices, the platform uses deep learning models to produce spatial configurations in seconds. 
 
-### 2. The Project Lifecycle State Machine
-Projects in Planik AI are not static; they operate on a strict logical state machine governed by the backend.
-* **State `open`:** The project is visible in the Contractor Marketplace. Bidding is enabled.
-* **State `in_progress`:** Triggered the exact millisecond a Client hits "Accept Bid". The backend begins a transaction:
-  * It marks the project as `in_progress`.
-  * It assigns the `selected_bid_id` and the winner's `contractor_id` to the project row.
-  * It automatically iterates through all *other* competing bids on that specific project and forcibly updates their state to `rejected`, cleaning up the database and notifying the losers.
-  * It creates an empty progress initialization row to start tracking milestones.
-* **State `completed`:** Triggered when the final milestone crosses 100%. The system closes the messaging tunnel, halts new updates, and triggers the UI prompt for the client to leave a review.
+Generates production-grade blueprints while providing an open bidding marketplace for verified contractors.
 
-### 3. The Generative AI Prompt Pipeline
-The AI floor plan generation does not rely on simple prompts. It uses a structured prompt compilation engine. 
-1. The user selects visual UI constraints (Bedrooms: 3, Style: Modern, Square Footage: 2500).
-2. The frontend strips these down into a structured JSON payload to the Next.js API route.
-3. The API securely loads hidden environment variables, injects the user's parameters into a highly optimized, secret "System Prompt Template" designed specifically for architectural diagramming (preventing prompt-injection attacks).
-4. The generation model returns a high-res image buffer, which the server compresses and dynamically pipes to Supabase Cloud Storage.
-5. A signed, public URL is returned to the frontend rendering the newly generated plan instantly.
-
-### 4. Real-Time Data Synchronization
-Instead of forcing users to constantly refresh pages to see if they got a new bid or message, the platform embraces modern real-time paradigms. While initial loads are heavily Server-Side Rendered (SSR) for SEO and speed, interactive components (like the Contractor Marketplace or the Chat interface) utilize client-side polling and Supabase Realtime (WebSockets) to instantly push new database rows (like a new chat message) directly into the user's UI without a hard refresh.
-
-## 🛡️ Uncompromising Data Integrity
-To protect against fraud or disputes between clients and contractors, the backend employs a strict **Immutable Audit Logger**. Every API route wraps its execution in a `writeAuditLog` utility. 
-
-If a contractor changes a bid, or an admin deletes a toxic user, a secure service-role key writes an event log detailing the User Matrix ID, the timestamp, the action context, and the metadata payload. This table strictly denies any `UPDATE` or `DELETE` SQL commands, ensuring that the historical timeline of the platform can never be altered or erased by any user.
+- **Graph-Based AI Layout Generation**: Utilizes deep neural layout graph optimization (**Graph2Plan** & **RPLAN-Toolbox**) to convert vector boundary inputs and room connectivity requirements into valid architectural floorplans.
+- **Real-Time Contractor Marketplace**: Dedicated workflows for clients to publish generated projects and contractors to submit itemized financial, material, and timeline bids.
+- **Edge Connection Pooling**: Custom server-side PgBouncer proxy wrapper (`server-pooled.ts`) eliminates connection saturation under heavy computational rendering loads.
+- **Zero-Trust Database Security**: Strict PostgreSQL Row Level Security (**RLS**) policies isolate client proposals, contractor bids, and real-time conversation streams.
+- **Multi-Format Vector Export Engine**: Client-side parsing pipeline generating high-resolution SVG, PNG, and production-ready CAD/PDF blueprints via integrated `jspdf` rendering.
 
 ---
-<p align="center">
-  <i>Engineered with an obsession for performance, security, and exceptional user experience.</i><br/>
-  <b>Designed & Developed by Nouraiz Virk </b>
-</p>
+
+## System Architecture & Data Flow
+
+The following sequence details how spatial inputs pass through authentication, API routing, AI neural layout solvers, persistent storage, and contractor delivery.
+
+```mermaid
+flowchart TD
+    subgraph Ingestion ["1. Client & Data Ingestion Layer"]
+        ClientUI["Next.js 16 App Router UI<br/>(React Server & Client Components)"]
+        FormInput["Spatial Constraint Form<br/>(Boundary Sides, Room Counts, Features)"]
+        ClientUI --> FormInput
+    end
+
+    subgraph Middleware ["2. Middleware & Auth Gateway"]
+        SupabaseAuth["Supabase Auth Engine<br/>(JWT Token & Cookie Verification)"]
+        RLSFilter{"Row Level Security (RLS)<br/>Policy Evaluation"}
+        FormInput --> SupabaseAuth
+        SupabaseAuth --> RLSFilter
+    end
+
+    subgraph Execution ["3. AI Generation & Transformation Engine"]
+        APIHandler["Next.js Route Handler<br/>(src/app/api/model/route.ts)"]
+        Graph2Plan["Graph2Plan AI Pipeline<br/>(Python Deep Learning Model)"]
+        MatlabToolbox["MATLAB Layout Solver<br/>(RPLAN Adjacency Optimizer)"]
+        RLSFilter -->|Authenticated Payload| APIHandler
+        APIHandler -->|JSON Adjacency Matrix| Graph2Plan
+        Graph2Plan -->|Layout Graph| MatlabToolbox
+    end
+
+    subgraph Persistence ["4. Persistence & Connection Pooling Layer"]
+        MatlabToolbox -->|Vector Blueprint Data| PgBouncer["PgBouncer Proxy Pooler<br/>(Port 6543 / server-pooled.ts)"]
+        PgBouncer --> SupabaseDB[("Supabase PostgreSQL<br/>(projects, profiles, bids)")]
+        MatlabToolbox -->|SVG / Image Render| StorageBuckets["Supabase Storage<br/>(floor-plans Bucket)"]
+    end
+
+    subgraph Marketplace ["5. Marketplace & Client Export Services"]
+        ContractorFeed["Contractor Bidding Feed<br/>(Real-Time Open Projects)"]
+        PDFGenerator["Client Blueprint Exporter<br/>(jsPDF CAD/PDF & SVG Downloads)"]
+        SupabaseDB --> ContractorFeed
+        StorageBuckets --> PDFGenerator
+    end
+```
+
+---
+
+## Technical Deep Dive
+
+### 1. Spatial AI Execution Bridge (`src/app/api/model/route.ts`)
+The AI generation pipeline translates user inputs into boundary vectors. The route handler validates JSON payload schemas containing plot boundary sides (`[{id, label, length}]`) and target room counts before spawning an isolated sub-process. 
+
+This process passes serialized adjacency matrices into the **Graph2Plan** deep learning network, which returns generated wall boundary coordinate arrays and room assignment polygons.
+
+```typescript
+// Abbreviated sub-process execution wrapper logic
+const pyProcess = spawn('python', ['Graph2Plan/inference.py', JSON.stringify(payload)]);
+pyProcess.stdout.on('data', (data) => {
+  const result = JSON.parse(data.toString());
+  // Mutate raw layout graph vectors into architectural SVG output
+});
+```
+
+### 2. High-Throughput Connection Pooling (`src/lib/supabase/server-pooled.ts`)
+Serverless Next.js edge route invocations can quickly exhaust PostgreSQL pool limits during simultaneous generation passes. 
+
+Planik-AI mitigates TCP connection overhead by establishing a persistent singleton client pool routed through Supabase's **PgBouncer** transactional proxy engine on port `6543`.
+
+```typescript
+import { createClient } from '@supabase/supabase-js';
+
+export const getPooledServerClient = () => {
+  return createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!,
+    { auth: { persistSession: false }, db: { schema: 'public' } }
+  );
+};
+```
+
+### 3. PL/pgSQL Atomic Profile Provisioning (`database-schema.sql`)
+User identity registration uses a PostgreSQL trigger executing under `SECURITY DEFINER` privileges. When a user completes signup via Supabase Auth, `handle_new_user()` intercepts the insertion event on `auth.users` and creates a matching profile in `public.profiles` while validating role constraints (`client`, `contractor`, or `admin`).
+
+```sql
+CREATE OR REPLACE FUNCTION public.handle_new_user()
+RETURNS TRIGGER AS $$
+BEGIN
+  INSERT INTO public.profiles (id, email, full_name, role)
+  VALUES (
+    NEW.id,
+    NEW.email,
+    NEW.raw_user_meta_data->>'full_name',
+    COALESCE(NEW.raw_user_meta_data->>'role', 'client')
+  );
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
+```
+
+### 4. Cross-Tenant Sub-Query RLS Security (`database-migration-008.sql`)
+To prevent competing contractors from viewing private project data or opposing bids, Row Level Security policies execute sub-query validations against owner keys. 
+
+Contractors can only view projects marked with `status = 'open_for_bids'`, while clients can only view bids associated with their own created project IDs.
+
+```sql
+CREATE POLICY "Clients can view bids for their projects"
+ON public.bids FOR SELECT
+USING (
+  auth.uid() IN (
+    SELECT client_id FROM public.projects WHERE id = bids.project_id
+  )
+);
+```
+
+### 5. Multi-Format CAD Export & Blob Pipeline (`jspdf` Integration)
+Generated layout structures are converted on the client side into scalable vector outputs. The client UI parses the raw SVG coordinates stored in the `projects` table, applies dimensional scaling parameters, and builds downloadable PDF blueprints directly inside browser memory via `jspdf`. 
+
+Simultaneously, binary blobs are committed into user-isolated sub-folders inside the `floor-plans` Supabase Storage bucket.
+
+---
+
+## Quick Start Guide
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-org/planik-ai.git
+cd planik-ai
+```
+
+### Step 2: Install Dependencies
+Install frontend and Node.js dependencies:
+```bash
+cd "Planik-AI deployed/plainikAi/frontend_2.0(next.js)"
+npm install
+```
+
+Set up the Python environment for the Graph2Plan layout engine:
+```bash
+cd ../../../Graph2Plan
+python -m venv env
+# Windows
+.\env\Scripts\activate
+# Linux/macOS
+source env/bin/activate
+
+pip install -r requirements.txt
+cd ..
+```
+
+### Step 3: Configure Environment Variables
+Copy the configuration template and update it with your credentials:
+```bash
+cd "Planik-AI deployed/plainikAi/frontend_2.0(next.js)"
+cp .env.local.example .env.local
+```
+
+### Step 4: Run Database Migrations
+Apply the SQL scripts located in `Planik-AI deployed/plainikAi/backend/` to your Supabase PostgreSQL instance:
+```bash
+# Execute database-schema.sql followed by migrations 001-016 in sequence via Supabase SQL Editor
+```
+
+### Step 5: Start the Development Server
+```bash
+npm run dev
+```
+Navigate to `http://localhost:3000` in your browser.
+
+---
+
+
+
+---
+
