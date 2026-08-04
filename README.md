@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Planik-AI deployed/plainikAi/Logo/favicon-Photoroom.png" alt="Planik-AI Logo" width="140" height="140" style="border-radius: 50%; object-fit: cover;" />
+  <img src="favicon-Photoroom.png" alt="Planik-AI Logo" width="140" height="140" style="border-radius: 50%; object-fit: cover;" />
 </div>
 
 <h1 align="center">📐 Planik-AI</h1>
