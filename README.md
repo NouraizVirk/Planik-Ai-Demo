@@ -19,7 +19,8 @@
 
 > **Planik-AI bridges architectural conceptualization and construction execution by combining graph-based deep learning floorplan generation with a secure, real-time contractor bidding marketplace.**
 
-> **Note:** The source code for this application is hosted in a private repository to protect proprietary security algorithms and system configurations. This public repository serves as an architectural overview and technical demonstration of the platform.
+> **Note:** The source code for this application is hosted in a private repository to protect proprietary security algorithms and system configurations. This public repository serves as an architectural overview and technical demonstration of the platform. You can request the source code by emailing at nouraiz.virk10@gmail.com
+---
 ---
 
 ## Table of Contents
